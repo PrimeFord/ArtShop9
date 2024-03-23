@@ -6,7 +6,7 @@ const MainContainer = ({ children }: any) => {
   return (
     <>
       <NavBar />
-      <div className="h-[100vh]">{children}</div>
+      <div className="h-auto py-6 font-circular">{children}</div>
       <Footer />
     </>
   );

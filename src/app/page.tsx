@@ -1,9 +1,12 @@
+import HeroCarousel from "./Components/Carousel/HeroCarousel";
 import MainContainer from "./Layout/MainContainer";
 
 export default function Home() {
   return (
     <>
-      <MainContainer>Home Page</MainContainer>
+      <MainContainer>
+        <HeroCarousel />
+      </MainContainer>
     </>
   );
 }

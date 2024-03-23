@@ -1,5 +1,4 @@
 import { CART, LIKE, LOGO, SEARCH, USER } from "@/app/Theme/ThemeIcons";
-import Image from "next/image";
 import React from "react";
 
 const NavBar = () => {
