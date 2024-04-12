@@ -37,6 +37,9 @@ const HeroCarousel = () => {
         <div className=" h-[20rem]  w-[20rem] bg-red-500">
           {/* <Hero1 /> */}2
         </div>
+        <div className=" h-[20rem]  w-[20rem] bg-red-500">
+          {/* <Hero1 /> */}3
+        </div>
       </Slider>
     </div>
   );
