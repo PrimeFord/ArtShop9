@@ -29,10 +29,14 @@ const HeroCarousel = () => {
   };
 
   return (
-    <div className=" h-[80vh] bg-red-700">
+    <div className=" h-[80vh] w-[100%] overflow-hidden bg-blue-700">
       <Slider {...settings}>
-        <div className="  h-[40rem] bg-slate-500">{/* <Hero1 /> */}1</div>{" "}
-        <div className=" h-[40rem] bg-red-500">{/* <Hero1 /> */}2</div>
+        <div className="  h-[20rem] w-[20rem] bg-slate-500">
+          {/* <Hero1 /> */}1
+        </div>
+        <div className=" h-[20rem]  w-[20rem] bg-red-500">
+          {/* <Hero1 /> */}2
+        </div>
       </Slider>
     </div>
   );
